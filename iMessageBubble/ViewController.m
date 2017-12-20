@@ -423,7 +423,7 @@
     NSInteger hour = [components hour];
     NSInteger minute = [components minute];
     
-    NSString *time =[NSString stringWithFormat:@"%ld:%d",(long)hour,minute];
+    NSString *time =[NSString stringWithFormat:@"%ld:%ld",(long)hour,(long)minute];
     
     
     iMessage *receiveMessage;
