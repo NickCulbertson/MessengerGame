@@ -1,0 +1,13 @@
+Text Based Game JSON Instructions
+
+• "order" is never used. It is just there so that you can keep track of the order
+• "text" is what the CPU player says
+• "option1" is the text on the button
+• "option1text" is what the PLAYER will say after clicking that option
+• "gotoencounter1" is the next object that will be loaded
+• "option3":"_" if an option is black use "_" so that option will be hidden
+
+TODO:
+- Add loop for recurring dialog
+- Add dynamic time delays between text
+- Add "typing" prompt for CPU

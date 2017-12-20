@@ -1,0 +1,176 @@
+{
+  "encounters": [
+                 {
+                 "order":"0",
+                 "loop":"NO",
+                 "text":"Help! I just woke up and I'm cover in blood. I don't appear to be injured",
+                 "followup":"Can you help me?",
+                 
+                 "option1":"Who is this and how did you get my number?",
+                 "option1text":"Who is this and how did you get my number?",
+                 "gotoencounter1":"1",
+                 
+                 "option2":"What did you say?",
+                 "option2text":"What did you say?",
+                 "gotoencounter2":"0",
+                 
+                 "option3":"<DELETE MESSAGE>",
+                 "option3text":"_",
+                 "gotoencounter3":"4",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"0"
+                 },
+                 {
+                 "order":"1",
+                 "loop":"NO",
+                 "text":"I just found a phone proped up on the table. It was recording me when I woke up. I...",
+                 "followup":"Please, I really need your help",
+                 
+                 "option1":"What's on the video?",
+                 "option1text":"Did you check the video? If not, do it. It might have some answers.",
+                 "gotoencounter1":"2",
+                 
+                 "option2":"Is anybody else there?",
+                 "option2text":"Is anybody else there?",
+                 "gotoencounter2":"6",
+                 
+                 "option3":"_",
+                 "option3text":"_",
+                 "gotoencounter3":"0",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"0"
+                 },
+                 {
+                 "order":"2",
+                 "loop":"NO",
+                 "text":"Okay I'll check it out and let you know what I find.",
+                 "followup":"OMFG!!!",
+                 
+                 "option1":"What does that mean?",
+                 "option1text":"I don't know what that means.",
+                 "gotoencounter1":"7",
+                 
+                 "option2":"What did you see?",
+                 "option2text":"What did you see?",
+                 "gotoencounter2":"3",
+                 
+                 "option3":"_",
+                 "option3text":"_",
+                 "gotoencounter3":"0",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"0"
+                 },
+                 {
+                 "order":"3",
+                 "text":"I'm in the video stabbing someone only I don't remember it at all.",
+                 "followup":"It couldn't be me. I should probably go.",
+                 
+                 "option1":"Is this some kind of joke?",
+                 "option1text":"Are you pulling my leg?",
+                 "gotoencounter1":"4",
+                 
+                 "option2":"You should call the police and turn yourself in.",
+                 "option2text":"You should call the police and turn yourself in.",
+                 "gotoencounter2":"4",
+                 
+                 "option3":"You've got to get out of there until we figure out what is going on.",
+                 "option3text":"You've got to get out of there until we figure out what is going on.",
+                 "gotoencounter3":"5",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"3"
+                 },
+                 {
+                 "order":"4",
+                 "text":"<Game Over>",
+                 "followup":"_",
+                 
+                 "option1":"Restart?",
+                 "option1text":"New Game",
+                 "gotoencounter1":"0",
+                 
+                 "option2":"_",
+                 "option2text":"_",
+                 "gotoencounter2":"3",
+                 
+                 "option3":"_",
+                 "option3text":"_",
+                 "gotoencounter3":"3",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"3"
+                 },
+                 {
+                 "order":"5",
+                 "text":"You win!",
+                 "followup":"To be continued...",
+                 
+                 "option1":"Restart?",
+                 "option1text":"New Game",
+                 "gotoencounter1":"0",
+                 
+                 "option2":"_",
+                 "option2text":"_",
+                 "gotoencounter2":"3",
+                 
+                 "option3":"_",
+                 "option3text":"_",
+                 "gotoencounter3":"3",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"3"
+                 },
+                 {
+                 "order":"6",
+                 "text":"No it is just me.",
+                 "followup":"_",
+                 
+                 "option1":"What's on the video?",
+                 "option1text":"Did you check the video? If not, do it. It might have some answers.",
+                 "gotoencounter1":"2",
+                 
+                 "option2":"_",
+                 "option2text":"_",
+                 "gotoencounter2":"3",
+                 
+                 "option3":"_",
+                 "option3text":"_",
+                 "gotoencounter3":"3",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"3"
+                 },
+                 {
+                 "order":"7",
+                 "text":"What?",
+                 "followup":"It means Oh My Fucking God!",
+                 
+                 "option1":"What's on the video?",
+                 "option1text":"Did you check the video? If not, do it. It might have some answers.",
+                 "gotoencounter1":"2",
+                 
+                 "option2":"_",
+                 "option2text":"_",
+                 "gotoencounter2":"3",
+                 
+                 "option3":"_",
+                 "option3text":"_",
+                 "gotoencounter3":"3",
+                 
+                 "option4":"_",
+                 "option4text":"_",
+                 "gotoencounter4":"3"
+                 },
+""
+  ]
+}
